@@ -1,5 +1,4 @@
 import tensorflow as tf
-print(tf.__version__)
 
 from flask import Flask, request
 from create_model import create_model
