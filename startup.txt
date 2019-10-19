@@ -1,2 +1,3 @@
 pip install tensorflow
+echo "super"
 gunicorn --bind=0.0.0.0 --timeout 600 test:app

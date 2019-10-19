@@ -13,4 +13,4 @@ def resize(path: str, index: int, output: str):
             imResize = im.resize((28, 28), Image.ANTIALIAS).convert('RGB')
             imResize.save(output + str(index) + "_" +  str(i) + '.jpg', 'JPEG', quality=100)
         i += 1
-resize("downloads/forest", 0, "no-fire/")
+resize("downloads/wildfire", 0, "no-fire/")
