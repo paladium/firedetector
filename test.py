@@ -13,6 +13,7 @@ model.load_weights("./checkpoints/my_checkpoint")
 @app.route("/", methods=['POST'])
 def isFire():
     file = request.files['file']
+    print("Received file")
     img = Image.open(file)
     imResize = img.resize((28, 28), Image.ANTIALIAS).convert('RGB')
     imResize = np.array(imResize)
@@ -23,4 +24,5 @@ def isFire():
 
 
 if __name__ == "__main__":
+    print("App running")
     app.run()
