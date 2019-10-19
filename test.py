@@ -1,7 +1,7 @@
 import tensorflow as tf
 
 from flask import Flask, request
-from create_model import create_model
+from .create_model import create_model
 from PIL import Image
 import numpy as np
 
