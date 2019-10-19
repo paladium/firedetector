@@ -1,11 +1,5 @@
 {
     "appService.deploySubpath": "",
     "python.pythonPath": "C:\\Users\\Ilkin\\envs\\ml\\Scripts\\python.exe",
-    "appService.showBuildDuringDeployPrompt": false,
-    "appService.zipIgnorePattern": [
-        "downloads{,/**}",
-        "fire{,/**}",
-        "no-fire{,/**}"
-    ],
-    "appService.defaultWebAppToDeploy": "/subscriptions/b28d43d9-d031-44e0-a3c8-c1cba045d269/resourceGroups/AzinDevelopmentResourceGroup/providers/Microsoft.Web/sites/azin-firedetector"
+    "appService.showBuildDuringDeployPrompt": false
 }
