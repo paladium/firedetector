@@ -1,2 +1,2 @@
-pip install tensorflow
+echo "awesome ilkin"
 gunicorn --bind=0.0.0.0 --timeout 600 test:app
