@@ -4,6 +4,7 @@ from flask import Flask, request
 from create_model import create_model
 from PIL import Image
 import numpy as np
+
 app = Flask(__name__)
 
 model = create_model()
@@ -19,6 +20,7 @@ def isFire():
     print(imResize.shape)
     prediction = model.predict(imResize)
     return {'response': int(np.argmax(prediction[0]))}
+
 
 if __name__ == "__main__":
     app.run()
