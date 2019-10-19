@@ -25,4 +25,4 @@ def isFire():
 
 if __name__ == "__main__":
     print("App running")
-    app.run(debug=True)
+    app.run()
